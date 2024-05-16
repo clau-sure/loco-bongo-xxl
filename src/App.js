@@ -31,20 +31,21 @@ function App() {
   }
 
   const enterNumber = () => {
+    console.log(prevNumber)
     let inputValue = document.getElementById("add").value;
     if (inputValue > 0 && inputValue <= 90) {
-      if (prevNumber) {
-        document.getElementById(prevNumber).classList.remove('heartbeat');
-      }
-      document.getElementById('p_' + inputValue).classList.add('heartbeat');
-      setPrevNumber('p_' + inputValue);
       let classList = document.getElementById(inputValue).classList;
-      if (classList.contains('flip')) {
-        document.getElementById(inputValue).classList.remove('flip');
-        document.getElementById('p_' + inputValue).classList.remove('heartbeat');
+      if (classList.contains('selected') || classList.contains('lastSelected')) {
+        document.getElementById(inputValue).classList.remove('selected');
+        document.getElementById(inputValue).classList.remove('lastSelected');
       } else {
-        document.getElementById(inputValue).classList.add('flip');
+        document.getElementById(inputValue).classList.add('lastSelected');
       }
+      if (prevNumber && document.getElementById(prevNumber).classList.contains('lastSelected')) {
+        document.getElementById(prevNumber).classList.remove('lastSelected');
+        document.getElementById(prevNumber).classList.add('selected');
+      }
+      setPrevNumber(inputValue);
     }
     document.getElementById("add").value = null;
   };
