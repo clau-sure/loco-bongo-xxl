@@ -25,11 +25,25 @@ body {
 }
 
 .wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  width: 68%;
+  width: 700px;
   max-height: 100vh;
   margin: auto 0;
+
+  .first_row {
+        display: flex;
+        border-bottom: 3px solid #eddf4a;
+  }
+
+  .rows {
+        width: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 3px solid #eddf4a;
+  }
+
+  .last_row {
+        display: flex;
+  }
 }
 
 .number {
@@ -37,6 +51,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 70px;
 }
 
 .inputs {

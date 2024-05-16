@@ -16,9 +16,9 @@ function App() {
     );
   };
 
-  const numbers = () => {
+  const numbers = (from, to) => {
     let rows = [];
-    for (let i = 1; i <= 90; i++) {
+    for (let i = from; i <= to; i++) {
       rows.push(number(i));
     }
     return rows;
@@ -51,7 +51,35 @@ function App() {
 
   return (
     <div className="both">
-      <div className="wrapper">{numbers()}</div>
+      <div className="wrapper">
+        <div className="first_row">
+          {numbers(1, 10)}
+        </div>
+        <div className="first_row">
+          {numbers(10, 20)}
+        </div>
+        <div className="first_row">
+          {numbers(20, 30)}
+        </div>
+        <div className="first_row">
+          {numbers(30, 40)}
+        </div>
+        <div className="first_row">
+          {numbers(40, 50)}
+        </div>
+        <div className="first_row">
+          {numbers(50, 60)}
+        </div>
+        <div className="first_row">
+          {numbers(60, 70)}
+        </div>
+        <div className="first_row">
+          {numbers(70, 80)}
+        </div>
+        <div className="last_row">
+          {numbers(81, 90)}
+        </div>
+      </div>
       <div className="inputs">
         <img src={logo} alt="LocoBongo logo" />
         <div className="inputdiv">
