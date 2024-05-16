@@ -27,14 +27,13 @@ body {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 5px;
-  width: 70%;
+  width: 68%;
   max-height: 100vh;
   margin: auto 0;
 }
 
 .number {
-  height: 9vh;
+  height: 8.8vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,18 +45,24 @@ body {
   justify-content: flex-end;
   width: 30%;
   flex-direction: column;
+  padding: 15px;
+
+  img {
+        width: 370px;
+  }
 }
 
 .inputdiv {
         display: flex;
         flex-direction: column;
         gap: 10px;
+        max-width: 300px;
 }
 
 .flip {
 	-webkit-animation: bounce-in-top 1.1s forwards;
 	animation: bounce-in-top 1.1s forwards;
-        background-color: deeppink;
+        background-color: #de31e3;
 
   p {
         color:#eddf4a;
@@ -73,7 +78,7 @@ p {
   font-size: large;
   color:white;
   font-weight: bold;
-  font-size: 55px;
+  font-size: 40px;
 }
 
 input {
@@ -81,7 +86,7 @@ input {
         color: white;
         border: none;
         border-bottom: 2px solid #eddf4a;
-        font-size: 300px;
+        font-size: 260px;
         text-align: center;
         caret-color: transparent;
 }

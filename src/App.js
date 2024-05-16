@@ -5,7 +5,9 @@ import logo from './assets/logo.svg'
 
 
 function App() {
+
   const [prevNumber, setPrevNumber] = useState(null);
+
   const number = (num) => {
     return (
       <div key={num} id={num} className="number">
