@@ -26,24 +26,19 @@ body {
 }
 
 .wrapper {
-  width: 700px;
+  width: 1090px;
   max-height: 100vh;
   margin: auto 0;
 
   .first_row {
         display: flex;
         border-bottom: 3px solid #eddf4a;
-  }
-
-  .rows {
-        width: 700px;
-        display: flex;
-        flex-wrap: wrap;
-        border-bottom: 3px solid #eddf4a;
+        justify-content: space-between;
   }
 
   .last_row {
         display: flex;
+        justify-content: space-between;
   }
 }
 
