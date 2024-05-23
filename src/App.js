@@ -57,25 +57,25 @@ function App() {
           {numbers(1, 10)}
         </div>
         <div className="first_row">
-          {numbers(10, 20)}
+          {numbers(11, 20)}
         </div>
         <div className="first_row">
-          {numbers(20, 30)}
+          {numbers(21, 30)}
         </div>
         <div className="first_row">
-          {numbers(30, 40)}
+          {numbers(31, 40)}
         </div>
         <div className="first_row">
-          {numbers(40, 50)}
+          {numbers(41, 50)}
         </div>
         <div className="first_row">
-          {numbers(50, 60)}
+          {numbers(51, 60)}
         </div>
         <div className="first_row">
-          {numbers(60, 70)}
+          {numbers(61, 70)}
         </div>
         <div className="first_row">
-          {numbers(70, 80)}
+          {numbers(71, 80)}
         </div>
         <div className="last_row">
           {numbers(81, 90)}
