@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.scss";
 import "./assets/Noah Text Heavy.ttf"
-import logo from './assets/logo.svg'
+import logo from './assets/lb-logo.svg'
 
 
 function App() {
