@@ -16,18 +16,28 @@ html {
 }
 
 body {
-  background-color: #924893;
+  //background-color: #924893;
+}
+
+#root {
+        background-color: #924893;
+        width: 1400px;
+        height: 1000px;
 }
 
 .both {
-  display: flex;
-  padding: 5vh 10vh;
-  justify-content: space-between;
+        display: flex;
+        padding: 50px;
+        justify-content: space-between;
+        max-width: 1400px;
+        max-height: 1000px;
+        width: -webkit-fill-available;
+        height: max-content;
 }
 
 .wrapper {
-  width: 70vw;
-  max-height: 90vh;
+  width: 780px;
+  max-height: 100%;
 
   .first_row {
         display: flex;
@@ -42,11 +52,11 @@ body {
 }
 
 .number {
-  height: 9.5vh;
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 6.3vw;
+  width: 100px;
 }
 
 .inputs {
@@ -58,7 +68,7 @@ body {
   padding: 50px 0 15px 15px;
 
   img {
-        width: 25vw;
+        width: 500px;
   }
 }
 
@@ -88,7 +98,7 @@ p {
   font-size: large;
   color:white;
   font-weight: bold;
-  font-size: 7vh;
+  font-size: 60px;
 }
 
 input {
