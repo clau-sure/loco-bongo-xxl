@@ -21,22 +21,23 @@ body {
 
 #root {
         background-color: #924893;
-        width: 1920px;
-        height: 1080px;
+        width: 960px;
+        height: 1344px;
 }
 
 .both {
         display: flex;
+        flex-direction: column;
         padding: 50px;
         justify-content: space-between;
-        max-width: 1920px;
-        max-height: 1080px;
+        max-width: 960px;
+        max-height: 1344px;
         width: -webkit-fill-available;
         height: max-content;
 }
 
 .wrapper {
-  width: 1000px;
+  width: 800px;
   max-height: 100%;
 
   .first_row {
@@ -62,13 +63,13 @@ body {
 .inputs {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  width: 30vw;
-  flex-direction: column;
-  padding: 50px 0 15px 15px;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  margin-left: -40px;
 
   img {
-        width: 650px;
+        width: 550px;
   }
 }
 
