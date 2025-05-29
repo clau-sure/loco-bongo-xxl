@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/loco-bongo-xxl/static/css/main.c4f2c712.css",
+    "main.css": "/loco-bongo-xxl/static/css/main.3fa4fb41.css",
     "main.js": "/loco-bongo-xxl/static/js/main.8cbcf7a6.js",
     "static/media/Noah Text Heavy.ttf": "/loco-bongo-xxl/static/media/Noah Text Heavy.1582614767b27fcdcae5.ttf",
     "static/media/lb-logo.svg": "/loco-bongo-xxl/static/media/lb-logo.c829613a660a755c12fb0b4e79323e09.svg",
     "index.html": "/loco-bongo-xxl/index.html",
-    "main.c4f2c712.css.map": "/loco-bongo-xxl/static/css/main.c4f2c712.css.map",
+    "main.3fa4fb41.css.map": "/loco-bongo-xxl/static/css/main.3fa4fb41.css.map",
     "main.8cbcf7a6.js.map": "/loco-bongo-xxl/static/js/main.8cbcf7a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4f2c712.css",
+    "static/css/main.3fa4fb41.css",
     "static/js/main.8cbcf7a6.js"
   ]
 }
