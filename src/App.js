@@ -31,7 +31,6 @@ function App() {
   }
 
   const enterNumber = () => {
-    console.log(prevNumber)
     let inputValue = document.getElementById("add").value;
     if (inputValue > 0 && inputValue <= 90) {
       let classList = document.getElementById(inputValue).classList;
