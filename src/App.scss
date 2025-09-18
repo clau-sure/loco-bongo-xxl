@@ -58,9 +58,10 @@ body {
         flex-direction: row;
         padding: 50px 100px 50px 50px;
         gap: 20px;
-        justify-content: space-between;
+        justify-content: center;
         width: 1728px;
         max-height: 832px;
+        align-items: center;
 }
 
 .wrapper {
