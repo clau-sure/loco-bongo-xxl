@@ -21,7 +21,12 @@ body {
 
 #root {
         background-color: #924893;
-        width: 2352px;
+    width: 5352px;
+    display: flex;
+    height: 3352px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
@@ -30,7 +35,7 @@ body {
         display: flex;
         justify-content: center;
         img {
-        width: 420px;
+        width: 550px;
   }
 }
 
