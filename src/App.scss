@@ -16,11 +16,11 @@ html {
 }
 
 body {
-  //background-color: #924893;
+  //background-color: #06e3fd;
 }
 
 #root {
-        background-color: #924893;
+        background-color: #00b6ca;
     width: 5352px;
     display: flex;
     height: 3352px;
@@ -75,7 +75,7 @@ body {
 
   .first_row {
         display: flex;
-        border-bottom: 3px solid #eddf4a;
+        border-bottom: 3px solid #fff62b;
         justify-content: space-between;
   }
 
@@ -112,18 +112,18 @@ body {
 .lastSelected {
 	-webkit-animation: bounce-in-top 1.1s forwards, blink-1 2s 1.6s infinite both;
 	animation: bounce-in-top 1.1s forwards, blink-1 2s 1.6s infinite both;
-        background-color: #e31f83;
+        background-color: #ff299b;
 
   p {
-        color:#eddf4a;
+        color:#fff62b;
   }
 }
 
 .selected {
-        background-color: #e31f83;
+        background-color: #ff299b;
 
   p {
-        color:#eddf4a;
+        color:#fff62b;
   }
 }
 
@@ -138,14 +138,14 @@ input {
         background-color: transparent;
         color: white;
         border: none;
-        border-bottom: 2px solid #eddf4a;
+        border-bottom: 2px solid #fff62b;
         font-size: 200px;
         text-align: center;
         caret-color: transparent;
 }
 
 input:focus {
-        color:#eddf4a;
+        color:#fff62b;
         outline: none;
     }
 
